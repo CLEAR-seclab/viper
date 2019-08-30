@@ -32,7 +32,7 @@ log_file =
 debug = False
 
 [web]
-host = 127.0.0.1
+host = 0.0.0.0
 port = 8080
 
 # tls (default: False): start HTTPS (True) or HTTP (False) server
@@ -43,9 +43,9 @@ certificate =
 key =
 
 # user name of superuser (default: "admin")
-#admin_username = admin
+admin_username = admin
 # superuser password (default: auto generate)
-#admin_password = changeme
+admin_password = changeme
 
 
 [http_client]
